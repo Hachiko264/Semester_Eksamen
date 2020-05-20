@@ -7,14 +7,12 @@ import "./sass/style.scss";
 
 
 function App() {
-    return (
-        <div className="App">
-          <Heading title="Title from prop" subtitle="Subtitle from prop" />
-          <Paragraph>
-            This will be the children prop inside the component.
-          </Paragraph>
-        </div>
-    );
+  return (
+    <Layout>
+      <Heading title="Title from prop" subtitle="Subtitle from prop" />
+      <Paragraph>This will be the children prop inside the component.</Paragraph>
+    </Layout>
+  );
 }
 
 export default App;
