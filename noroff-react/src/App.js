@@ -2,8 +2,8 @@ import React from 'react';
 import Heading from "./components/layout/Heading.js";
 import Paragraph from "./components/layout/Paragraph.js";
 import Layout from "./components/layout/Layout.js";
-import './App.scss';
-import "./sass/style.scss";
+import './App.css';
+import "./css/style.css";
 
 
 function App() {
