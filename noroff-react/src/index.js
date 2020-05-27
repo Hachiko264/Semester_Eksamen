@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './fonts/Segoe-UI.ttf'
+import './fonts/Segoe-UI-Bold.ttf'
+import './fonts/Segoe-UI-Bold-Italic.ttf'
+import './fonts/Segoe-UI-Italic.ttf'
 
 ReactDOM.render(
   <React.StrictMode>
