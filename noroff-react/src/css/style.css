@@ -1,9 +1,6 @@
 * {
   font-family: "Segoe UI","Helvetica Neue",Roboto, "Noto Sans", sans-serif;
-  background-color: #2E2823; }
-
-.App-header {
-  background-color: grey; }
+  background-color: #2B2B2B; }
 
 .container {
   padding: 60px 15px 0; }
@@ -18,7 +15,7 @@ h1, p {
   color: white;
   padding: 20px;
   margin: 10px 0 0 0 auto;
-  border: 1px solid white; }
+  border: 1px solid #940C1E; }
 
 h1 {
   margin-bottom: 20px;

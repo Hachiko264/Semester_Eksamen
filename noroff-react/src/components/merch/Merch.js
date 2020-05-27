@@ -10,13 +10,6 @@ export function Merch() {
             <Heading title="Merch" />
             <p>Merch - coming soon, tease page </p>
 
-            <Row>
-				<Col md={12} className="detail-image">
-	            	<p><Image src={require('./images/Prototype_Martha5.png')} alt="Logo design" fluid /></p>
-				</Col>		
-			</Row>
-
-
 			<Row>
 				<Col md={4} className="detail-image">
 	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
@@ -27,7 +20,34 @@ export function Merch() {
 				<Col md={4} className="detail-image">
 	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
 				</Col>
-			
+			</Row>
+
+						<Row>
+				<Col md={6} className="detail-image">
+	            	<p>Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, 
+					a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. 
+					Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. 
+					Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo 
+					eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna.
+					 Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, 
+					 at interdum magna augue eget diam.</p>
+				</Col>
+				<Col md={6} className="detail-image">
+	            	<p>Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, 
+					a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. 
+					Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. 
+					Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo 
+					eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna.
+					 Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, 
+					 at interdum magna augue eget diam.</p>
+				</Col>
+
+			</Row>
+
+			<Row>
+				<Col md={12} className="detail-image">
+	            	<p><Image src={require('./images/Prototype_Martha5.png')} alt="Logo design" fluid /></p>
+				</Col>		
 			</Row>
         </>
     );
