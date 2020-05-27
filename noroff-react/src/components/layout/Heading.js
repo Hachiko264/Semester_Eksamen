@@ -1,11 +1,8 @@
 import React from "react";
 
-function Heading({ title, subtitle }) {
+function Heading({ title }) {
     return (
-        <>
-            <h1>{title}</h1>
-            <h2>{subtitle}</h2>
-        </>
+        <h1>{title}</h1>
     );
 }
 
