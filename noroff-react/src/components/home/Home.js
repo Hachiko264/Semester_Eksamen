@@ -11,7 +11,36 @@ export function Home() {
         <>
             <Heading title="Home" />
             <h2> H2 undertittel </h2>
-            <p>Homepage - Slideshow/videobackground with logo, welcome/enter page.</p>
+            <p>Homepage - Slideshow/videobackground with logo, welcome/enter page. 
+            <br/> mulig løsning for store bilder. evt fixed bakgrunn? https://github.com/tailwindcss/discuss/issues/41</p>
+
+            <Row>
+				<Col md={2} className="detail-image">
+	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
+				</Col>
+
+				<Col md={4} className="detail-text">
+					<p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh 
+	            	elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed 
+	            	augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent 
+	            	taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+	            	Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>	
+				</Col>	
+				<Col md={2} className="detail-image">
+	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
+				</Col>
+
+				<Col md={4} className="detail-text">
+					<p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh 
+	            	elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed 
+	            	augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent 
+	            	taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+	            	Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>	
+				</Col>			
+			</Row>
+
+
+
 
 			<Row>
 				<Col md={12} className="detail-image">

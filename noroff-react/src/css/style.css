@@ -3,7 +3,8 @@
   background-color: #2B2B2B; }
 
 .container {
-  padding: 60px 15px 0; }
+  padding: 60px 15px 0;
+  width: 150%; }
 
 .layout {
   width: 100%;
