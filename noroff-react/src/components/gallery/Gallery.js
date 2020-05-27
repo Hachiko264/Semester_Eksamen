@@ -10,7 +10,7 @@ export function Gallery() {
             <Heading title="Gallery" />
             <p>Image Gallery - images from past gigs and band practices.</p>
 
-                        <Row>
+            <Row>
 				<Col md={12} className="detail-image">
 	            	<p><Image src={require('./images/Prototype_Martha3.png')} alt="Logo design" fluid /></p>
 				</Col>		

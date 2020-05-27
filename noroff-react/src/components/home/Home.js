@@ -10,6 +10,7 @@ export function Home() {
     return (
         <>
             <Heading title="Home" />
+            <h2> H2 undertittel </h2>
             <p>Homepage - Slideshow/videobackground with logo, welcome/enter page.</p>
 
 			<Row>

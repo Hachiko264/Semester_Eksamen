@@ -26,8 +26,8 @@ function Layout() {
                     <Navbar.Brand href="/">
                       <img
                         alt=""
-                        src={require('./images/logo-white.svg')}
-                        height="100px"
+                        src={require('./images/ashes_logo_white.svg')}
+                        height="200px"
                         className="navbar-brand"
                       />{' '}
                     </Navbar.Brand>
@@ -36,14 +36,25 @@ function Layout() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <NavLink to="/" exact className="nav-link"> Home </NavLink>
+                        <h2>|</h2>
                         <NavLink to="/bio" className="nav-link"> Bio </NavLink>
+                        <h2>|</h2>
                         <NavLink to="/gallery" className="nav-link"> Gallery </NavLink>
+                        <h2>|</h2>
                         <NavLink to="/disco" className="nav-link"> Disco </NavLink>
+                        <h2>|</h2>
                         <NavLink to="/merch" className="nav-link"> Merch </NavLink>
+                        <h2>|</h2>
                         <NavLink to="/gigs" className="nav-link"> Gigs </NavLink>
+                        <h2>|</h2>
                         <NavLink to="/contact" className="nav-link"> Contact </NavLink>
                     </Nav>
                 </Navbar.Collapse>
+                <Navbar.Collapse className="justify-content-end">
+                    <Navbar.Text>
+                      Follow us: <a href="#">Social Media icons</a>
+                    </Navbar.Text>
+                  </Navbar.Collapse>
             </Navbar>
             <Container>
                 <Switch>
