@@ -10,15 +10,22 @@ export function Home() {
     return (
         <>
             <Heading title="Home" />
-            <p>This is the home page</p>
+            <p>Homepage - Slideshow/videobackground with logo, welcome/enter page.</p>
 
 			<Row>
-				<Col md={6} className="detail-image">
+				<Col md={12} className="detail-image">
+	            	<p><Image src={require('./images/Prototype_Martha.png')} alt="Logo design" fluid /></p>
+				</Col>		
+			</Row>
+
+
+			<Row>
+				<Col md={4} className="detail-image">
 	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
 				</Col>
 
-				<Col md={6} className="detail_text">
-					<p><Image src={require('./images/poster.jpg')} alt="Shoes website" fluid /></p>	
+				<Col md={8} className="detail-image">
+					<p><Image src={require('./images/Style_Tile_Martha.jpg')} alt="Shoes website" fluid /></p>	
 				</Col>			
 			</Row>
         </>
