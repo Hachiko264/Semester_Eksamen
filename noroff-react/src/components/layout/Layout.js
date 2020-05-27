@@ -21,9 +21,16 @@ import Contact from "../contact/Contact.js";
 function Layout() {
     return (
         <Router>
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar variant="dark" expand="lg">
                 <NavLink to="/" exact>
-                    <Navbar.Brand>Rick and Morty</Navbar.Brand>
+                    <Navbar.Brand href="/">
+                      <img
+                        alt=""
+                        src={require('./images/logo-white.svg')}
+                        height="100px"
+                        className="navbar-brand"
+                      />{' '}
+                    </Navbar.Brand>
                 </NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -49,6 +56,11 @@ function Layout() {
                     <Route path="/contact" component={Contact} />
                 </Switch>
             </Container>
+            <> 
+               <footer className='footer mt-auto py-1 pb-4 '>
+                    <div className='container'>NOROFF 2020 &copy; Martha H. Rosenlund</div>
+               </footer>
+            </>
         </Router>
     );
 }

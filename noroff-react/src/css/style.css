@@ -1,17 +1,40 @@
 * {
-  font-family: 'Segoe UI'; }
+  font-family: "Segoe UI","Helvetica Neue",Roboto, "Noto Sans", sans-serif;
+  background-color: #2b2b2b; }
 
 .App-header {
   background-color: grey; }
 
 .container {
-  padding-top: 30px; }
+  padding: 60px 15px 0; }
 
 .layout {
   width: 100%;
   max-width: 800px;
   padding: 30px;
-  background: #ebebeb;
+  background: #2b2b2b;
   margin: 0 auto; }
+
+h1, p {
+  color: white;
+  background-color: #2b2b2b;
+  padding: 20px;
+  margin: 10px 0 0 0 auto;
+  border: 1px solid white; }
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+.navbar-header .navbar-brand {
+  height: 100px; }
+
+.footer {
+  background-color: #2b2b2b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  text-align: right; }
 
 /*# sourceMappingURL=style.css.map */
