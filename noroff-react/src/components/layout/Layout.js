@@ -52,7 +52,7 @@ function Layout() {
                 </Navbar.Collapse>
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                      Follow us: <a href="#">Social Media icons</a>
+                      Follow us: <a href="/">Social Media icons</a>
                     </Navbar.Text>
                   </Navbar.Collapse>
             </Navbar>

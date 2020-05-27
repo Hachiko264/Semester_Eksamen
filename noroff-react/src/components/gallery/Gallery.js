@@ -10,7 +10,7 @@ export function Gallery() {
             <Heading title="Gallery" />
             <h2>Image Gallery - images from past gigs and band practices.</h2>
             <p>Image Gallery - images from past gigs and band practices.<br/>
-            // kommer bedre løsning på fotogalleri. potensielt https://reactstrap.github.io/components/carousel/</p>
+            Kommer bedre løsning på fotogalleri. potensielt https://reactstrap.github.io/components/carousel/</p>
 
 			<Row>
 				<Col md={3} className="detail-image">
