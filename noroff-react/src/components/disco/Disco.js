@@ -14,7 +14,10 @@ export function Disco() {
 				<Col md={4} className="detail-image">
 	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
 				</Col>
-				<Col md={8} className="detail-image">
+				<Col md={8} className="detail-text">
+				<h3>ALBUM TEXT</h3>
+				<h4>ALBUM TEXT</h4>
+				<h5>ALBUM TEXT</h5>
 	            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. 
 	            	Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh 
 	            	elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed 
@@ -43,7 +46,7 @@ export function Disco() {
 				<Col md={4} className="detail-image">
 	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
 				</Col>
-				<Col md={8} className="detail-image">
+				<Col md={8} className="detail-text">
 	            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. 
 	            	Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh 
 	            	elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed 

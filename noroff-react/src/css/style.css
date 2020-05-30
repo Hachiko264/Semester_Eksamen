@@ -22,6 +22,12 @@ h1 {
 h2, b {
   color: #940C1E; }
 
+h3 {
+  color: #940C1E; }
+
+h4, h5 {
+  color: white; }
+
 .navbar-header .navbar-brand {
   height: 100px; }
 
