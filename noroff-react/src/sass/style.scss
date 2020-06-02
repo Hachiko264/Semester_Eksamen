@@ -7,6 +7,7 @@
 	background-color: hsl(0,0,8); 
 }
 
+
 .App-header {
 	//background-color: grey;
 }
@@ -34,6 +35,8 @@ h1, p {
 h1 {
 	margin-bottom: 20px;
 	font-weight: bold;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
 h2, b {
@@ -55,6 +58,11 @@ h6 {
 	color: white;
 	font-size: 1,1em;
 	font-weight: bold;
+}
+
+row { //funker ikke
+	padding: 30px;
+	margin: 30px;
 }
 
 .navbar-header .navbar-brand {

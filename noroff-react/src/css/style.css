@@ -17,7 +17,9 @@ h1, p {
 
 h1 {
   margin-bottom: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px; }
 
 h2, b {
   color: #940C1E;
@@ -34,6 +36,10 @@ h6 {
   color: white;
   font-size: 1,1em;
   font-weight: bold; }
+
+row {
+  padding: 30px;
+  margin: 30px; }
 
 .navbar-header .navbar-brand {
   height: 100px; }
