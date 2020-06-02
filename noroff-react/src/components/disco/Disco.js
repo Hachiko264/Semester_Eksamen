@@ -7,67 +7,47 @@ import Heading from "../layout/Heading";
 export function Disco() {
     return (
         <>
-            <Heading title="Disco" />
-            <p>Discography - Show released singles and albums with tracklist (connect to spotify) </p>
+            <Heading title="DISCOGRAPHY" />
+            <p>Discography - Show released singles and albums with tracklist (connect to spotify, maybe api</p>
 
 			<Row>
 				<Col md={4} className="detail-image">
-	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
+	            	<p><Image src={require('./images/burden_disco.jpg')} alt="A common burden album cover" fluid /></p>
 				</Col>
 				<Col md={8} className="detail-text">
-				<h3>ALBUM TEXT</h3>
-				<h4>ALBUM TEXT</h4>
-				<h5>ALBUM TEXT</h5>
-	            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. 
-	            	Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh 
-	            	elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed 
-	            	augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent 
-	            	taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-	            	Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. 
-	            	Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. 
-	            	Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas 
-	            	porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. 
-	            	Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, 
-	            	ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. 
-	            	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-	            	himenaeos. Nam nec ante. 
+				<h3>A COMMON BURDEN</h3>
+				<h5>ASHES OF HER MEMORY </h5>
+				<h6>FULL ALBUM (2017), PIGGTRÅD RECORDS</h6>
+	            	<p>Everyday Pressure <b>3:40</b><br /> 
 
-					Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, 
-					a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. 
-					Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. 
-					Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo 
-					eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna.
-					 Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, 
-					 at interdum magna augue eget diam.</p>
+
+
+
+
+	            	</p>				</Col>
+			</Row>
+
+			<Row>
+				<Col md={4} className="detail-image">
+	            	<p><Image src={require('./images/looney_disco.jpg')} alt="Looneytale single cover" fluid /></p>
+				</Col>
+				<Col md={8} className="detail-text">
+				<h3>LOONEYTALE</h3>
+				<h5>ASHES OF HER MEMORY </h5>
+				<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
+	            	<p><b>1.</b> Looneytale feat. Poeh - Single Version <b>4:00</b></p>
 				</Col>
 			</Row>
 
 			<Row>
 				<Col md={4} className="detail-image">
-	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
+	            	<p><Image src={require('./images/everyday_disco.jpg')} alt="Everyday pressure single cover" fluid /></p>
 				</Col>
 				<Col md={8} className="detail-text">
-	            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. 
-	            	Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh 
-	            	elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed 
-	            	augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent 
-	            	taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-	            	Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. 
-	            	Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. 
-	            	Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas 
-	            	porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. 
-	            	Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, 
-	            	ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. 
-	            	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
-	            	himenaeos. Nam nec ante. 
-
-					Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, 
-					a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. 
-					Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. 
-					Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo 
-					eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna.
-					 Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, 
-					 at interdum magna augue eget diam.</p>
+				<h3>EVERYDAY PRESSURE</h3>
+				<h5>ASHES OF HER MEMORY </h5>
+				<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
+	            	<p><b>1.</b> Everyday Pressure - Single Version <b>3:40</b></p>
 				</Col>
 			</Row>
 

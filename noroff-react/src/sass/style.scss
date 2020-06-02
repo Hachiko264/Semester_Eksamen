@@ -39,14 +39,22 @@ h1 {
 h2, b {
 	color: #940C1E;
 	//color: COLORS.red;
+	text-decoration: bold;
 }
 
 h3 {
 	color: #940C1E;
+	font-weight: bold;
 }
 
 h4, h5 {
+	color: hsl(0,0,50);
+}
+
+h6 {
 	color: white;
+	font-size: 1,1em;
+	font-weight: bold;
 }
 
 .navbar-header .navbar-brand {
