@@ -15,6 +15,9 @@
 .center {
   text-align: center; }
 
+.passedgig {
+  text-decoration: line-through; }
+
 h1, p {
   color: white; }
 
