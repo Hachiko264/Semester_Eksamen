@@ -46,30 +46,51 @@ function Contact() {
 	            	<h3>WANT TO BOOK US? GIVE FEEDBACK?</h3>
 					<h6>CONTACT US!</h6>
 
-					 <Form onSubmit={handleSubmit(onSubmit)}>
-				        
-			         <Form.Group>
-				        <Form.Label>Name</Form.Label>
-				        <Form.Control name="firstName" placeholder="Enter your name" ref={register} />
-				        {errors.firstName && <p>First name is required</p>}
-			    	</Form.Group>
+					<p>
+			        	<a href="https://www.facebook.com/martha264/">
+				        	<Image 
+				        	src={require('./images/002-facebook.svg')} 
+				        	alt="Facebook" 
+				        	fluid 
+				        	className="d-inline-block"/>
+			        	</a>
+			        	<a href="https://www.instagram.com/hachiko264/">
+				        	<Image 
+				        	src={require('./images/003-instagram.svg')} 
+				        	alt="Instagram" 
+				        	fluid 
+				        	className="d-inline-block"/>
+			        	</a>
+			        </p>
 
-				    <Form.Group>
-				        <Form.Label>Email</Form.Label>
-				        <Form.Control name="email" placeholder="Enter your email" ref={register} />
-				        {errors.email && <p>Email is required</p>}
-				    </Form.Group>
+					<Form onSubmit={handleSubmit(onSubmit)}>
+				        <p>
+				            <Form.Group>
+				                <Form.Label>First Name</Form.Label>
+				                <Form.Control name="firstName" placeholder="Enter your first name" ref={register({required: true, min: 4, maxLength: 80})} />
+				                {errors.firstName && <ErrorMessage>{errors.firstName.message}</ErrorMessage>}
+				            </Form.Group>
 
-				    <Form.Group>
-				        <Form.Label>Age</Form.Label>
-				        <Form.Control type="number" name="age" placeholder="Enter your age" ref={register} />
-				        {errors.age && <p>Age is required</p>}
-				    </Form.Group>
+				            <Form.Group>
+				                <Form.Label>Last Name</Form.Label>
+				                <Form.Control name="lastName" placeholder="Enter your last name" ref={register({required: true, min: 4, maxLength: 80})} />
+				                {errors.lastName && <ErrorMessage>{errors.lastName.message}</ErrorMessage>}
+				            </Form.Group>
 
+				            <Form.Group>
+				                <Form.Label>Email</Form.Label>
+				                <Form.Control name="email" placeholder="Enter your email" ref={register({required: true, pattern: /^\S+@\S+$/i})} />
+				                {errors.email && <ErrorMessage>{errors.email.message}</ErrorMessage>}
+				            </Form.Group>
 
-
-				        <Button type="submit">Submit</Button>
-				    </Form>
+				            <Form.Group>
+				                <Form.Label>Message</Form.Label>
+				                <Form.Control name="message" placeholder="Write you message here" ref={register({required: true, min: 10, maxLength: 500})} />
+				                {errors.message && <ErrorMessage>{errors.message.Message}</ErrorMessage>}
+				            </Form.Group>
+				            <Button type="submit" variant="light">Submit</Button>
+				        </p>
+			        </Form>
 
 					 <h6>WHERE TO FIND US</h6>
 					 <p>SoMe +++ </p>
