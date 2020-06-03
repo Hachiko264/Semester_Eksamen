@@ -43,27 +43,11 @@ function Contact() {
 	            	<p><Image src={require('./images/bio01.jpg')} alt="Logo design" fluid /></p>
 				</Col>
 				<Col md={8} className="detail-text">
-	            	<h3>WANT TO BOOK US? GIVE FEEDBACK?</h3>
+	            	<h3>WANT TO BOOK US?</h3>
 					<h6>CONTACT US!</h6>
 
-					<p>
-			        	<a href="https://www.facebook.com/martha264/">
-				        	<Image 
-				        	src={require('./images/002-facebook.svg')} 
-				        	alt="Facebook" 
-				        	fluid 
-				        	className="d-inline-block"/>
-			        	</a>
-			        	<a href="https://www.instagram.com/hachiko264/">
-				        	<Image 
-				        	src={require('./images/003-instagram.svg')} 
-				        	alt="Instagram" 
-				        	fluid 
-				        	className="d-inline-block"/>
-			        	</a>
-			        </p>
-
-					<Form onSubmit={handleSubmit(onSubmit)}>
+					<Form name="contact" onSubmit={handleSubmit(onSubmit)}>
+				        <input type="hidden" name="form-name" value="contact" />
 				        <p>
 				            <Form.Group>
 				                <Form.Label>First Name</Form.Label>
@@ -93,15 +77,26 @@ function Contact() {
 			        </Form>
 
 					 <h6>WHERE TO FIND US</h6>
-					 <p>SoMe +++ </p>
+					 <p>
+			        	<a href="https://www.facebook.com/martha264/">
+				        	<Image 
+				        	src={require('./images/002-facebook.svg')} 
+				        	alt="Facebook" 
+				        	fluid 
+				        	className="d-inline-block"/>
+			        	</a>
+			        	<a href="https://www.instagram.com/hachiko264/">
+				        	<Image 
+				        	src={require('./images/003-instagram.svg')} 
+				        	alt="Instagram" 
+				        	fluid 
+				        	className="d-inline-block"/>
+			        	</a>
+			        	youtube, spotify
+			        </p>
 				</Col>
 			</Row>
 
-			 <Row>
-				<Col md={12} className="detail-image">
-	            	<p><Image src={require('./images/Prototype_Martha7.png')} alt="Logo design" fluid /></p>
-				</Col>		
-			</Row>
         </>
     );
 }

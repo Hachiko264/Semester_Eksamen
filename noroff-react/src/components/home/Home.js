@@ -12,6 +12,7 @@ export function Home() {
             <Heading title="Home" />
             <h2> H2 undertittel </h2>
             <p>Homepage - Slideshow/videobackground with logo, welcome/enter page. 
+            <br/> landingsside med flash background maybe? og slideslow på gallery?
             <br/> mulig løsning for store bilder. evt fixed bakgrunn? https://github.com/tailwindcss/discuss/issues/41</p>
 
             <Row>
