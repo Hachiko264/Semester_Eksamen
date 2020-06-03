@@ -7,7 +7,7 @@ import Heading from "../layout/Heading";
 export function Gigs() {
     return (
         <>
-            <Heading title="UPCOMING GIGS" />
+            <Heading title="GIGS & LIVE CONCERTS" />
 
 			<Row>
 				<Col md={4} className="detail-image">

@@ -12,7 +12,6 @@ export function Bio() {
 
 			<Row>
 				<Col md={12} className="detail-image">
-				<p><br /><br /></p>
 	            <h3 class="center">THE STORY</h3>
 	            <p><br /></p>
 				</Col>
