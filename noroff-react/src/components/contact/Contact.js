@@ -7,22 +7,20 @@ import Heading from "../layout/Heading";
 export function Contact() {
     return (
         <>
-            <Heading title="Contact" />
-            <p>Contact - contact form and social media link for booking</p>
-
+            <Heading title="CONTACT" />
  
 			<Row>
-				<Col md={3} className="detail-image">
-	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
+				<Col md={4} className="detail-image">
+	            	<p><Image src={require('./images/bio02.jpg')} alt="Logo design" fluid /></p>
+	            	<p><Image src={require('./images/bio01.jpg')} alt="Logo design" fluid /></p>
 				</Col>
-				<Col md={9} className="detail-image">
-	            	<p>Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, 
-					a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. 
-					Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. 
-					Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo 
-					eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna.
-					 Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, 
-					 at interdum magna augue eget diam.</p>
+				<Col md={8} className="detail-text">
+	            	<h3>WANT TO BOOK US? GIVE FEEDBACK?</h3>
+					<h6>USE THE CONTACT FORM TO GET IN TOUCH!</h6>
+	            	
+
+					 <h6>WHERE TO FIND US</h6>
+					 <p>SoMe +++ </p>
 				</Col>
 			</Row>
 

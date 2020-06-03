@@ -12,9 +12,9 @@ export function Gigs() {
 			<Row>
 				<Col md={4} className="detail-image">
 	            	<p><Image src={require('./images/gigs07.jpg')} alt="live concert" fluid /></p>
-	            	<p><Image src={require('./images/gigs06.jpg')} alt="live concert" fluid /></p>
+	            	<p><Image src={require('./images/gigs11.jpg')} alt="live concert" fluid /></p>
 	            	<p><Image src={require('./images/gigs01.jpg')} alt="live concert" fluid /></p>
-	            	<p><Image src={require('./images/gigs14.jpg')} alt="live concert" fluid /></p>
+	            	<p><Image src={require('./images/gigs10.jpg')} alt="live concert" fluid /></p>
 				</Col>
 
 				<Col md={4} className="detail-text">
@@ -50,13 +50,13 @@ export function Gigs() {
 				</Col>
 
 				<Col md={4} className="detail-image">
-	            	<p><Image src={require('./images/gigs04.jpg')} alt="live concert" fluid /></p>
-	            	<p><Image src={require('./images/gigs11.jpg')} alt="live concert" fluid /></p>
-	            	<p><Image src={require('./images/gigs12.jpg')} alt="live concert" fluid /></p>
 	            	<p><Image src={require('./images/gigs08.jpg')} alt="live concert" fluid /></p>
+	            	<p><Image src={require('./images/gigs06.jpg')} alt="live concert" fluid /></p>
+	            	<p><Image src={require('./images/gigs13.jpg')} alt="live concert" fluid /></p>
+	            	<p><Image src={require('./images/gigs12.jpg')} alt="live concert" fluid /></p>
 				</Col>
 			</Row>
-<Row>
+			<Row>
 				<Col md={12} className="detail-image">
 				<p><br /><br /></p>
 	            <h3 class="center">PAST PROMOS</h3>
