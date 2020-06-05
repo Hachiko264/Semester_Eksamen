@@ -6,6 +6,9 @@ import Heading from "../layout/Heading";
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button'
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+
+
 export function Gallery() {
     return (
         <>
@@ -16,38 +19,8 @@ export function Gallery() {
            
 			<Row>
 				<Col md={12} className="detail-image">
-            		<Carousel>
-
-		            	<Carousel.Item>
-			            	<img
-						      className="d-block w-100"
-						      src={require('./images/slidetest.jpg')}
-						      alt="Slide"
-						    />
-						     <Carousel.Caption>
-							    <h3>SLIDE LABEL</h3>
-							    <p>Label text under image</p>
-						    </Carousel.Caption>
-		            	</Carousel.Item>
 
 
-		            	<Carousel.Item>
-			            	<img
-						      className="d-block w-100"
-						      src={require('./images/slidetest.jpg')}
-						      alt="Slide"
-						    />
-		            	</Carousel.Item>
-
-		            	<Carousel.Item>
-			            	<img
-						      className="d-block w-100"
-						      src={require('./images/slidetest.jpg')}
-						      alt="Slide"
-						    />
-		            	</Carousel.Item>
-
-            		</Carousel>
             	</Col>
 			</Row>
 
