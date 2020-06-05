@@ -30,7 +30,20 @@ export function Disco() {
 						<b>9.</b> Looneytale <b>4:00</b><br />
 						<b>10.</b> Everybody <b>4:23</b><br />
 	            	</p>
-	            	<p>((SPOTIFY + ITUNES))</p>		
+	            		<a href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/">
+                            <Image 
+                            src={require('./images/spotify.svg')} 
+                            alt="Spotify" 
+                            fluid 
+                            className="d-inline-block"/>
+                        </a>
+                        <a href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/">
+                            <Image 
+                            src={require('./images/itunes.svg')} 
+                            alt="Itunes" 
+                            fluid 
+                            className="d-inline-block"/>
+                        </a>
 	            </Col>
 			</Row>
 
@@ -46,11 +59,26 @@ export function Disco() {
 	            	<p><Image src={require('./images/looney_disco.jpg')} alt="Looneytale single cover" fluid /></p>
 				</Col>
 				<Col sx={12} md={3} className="detail-text">
-				<h3>LOONEYTALE</h3>
-				<h5>ASHES OF HER MEMORY </h5>
-				<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
-	            <p><b>1.</b> Looneytale feat. Poeh - Single Version <b>4:00</b></p>
-	            <p>((SPOTIFY + ITUNES))</p>		
+					<h3>LOONEYTALE</h3>
+					<h5>ASHES OF HER MEMORY </h5>
+					<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
+		            <p><b>1.</b> Looneytale feat. Poeh - Single Version <b>4:00</b></p>
+		            <p>((SPOTIFY + ITUNES))</p>
+		            
+		            <a href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/">
+	                    <Image 
+	                    src={require('./images/spotify.svg')} 
+	                    alt="Spotify" 
+	                    fluid 
+	                    className="d-inline-block"/>
+	                </a>
+	                <a href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/">
+	                    <Image 
+	                    src={require('./images/itunes.svg')} 
+	                    alt="Itunes" 
+	                    fluid 
+	                    className="d-inline-block"/>
+	                </a>		
 
 				</Col>
 
@@ -58,11 +86,26 @@ export function Disco() {
 	            	<p><Image src={require('./images/everyday_disco.jpg')} alt="Everyday pressure single cover" fluid /></p>
 				</Col>
 				<Col sx={10} md={3} className="detail-text">
-				<h3>EVERYDAY PRESSURE</h3>
-				<h5>ASHES OF HER MEMORY </h5>
-				<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
-	            <p><b>1.</b> Everyday Pressure - Single Version <b>3:40</b></p>
-	            <p>((SPOTIFY + ITUNES))</p>
+					<h3>EVERYDAY PRESSURE</h3>
+					<h5>ASHES OF HER MEMORY </h5>
+					<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
+		            <p><b>1.</b> Everyday Pressure - Single Version <b>3:40</b></p>
+		            <p>((SPOTIFY + ITUNES))</p>
+
+		            <a href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/">
+	                    <Image 
+	                    src={require('./images/spotify.svg')} 
+	                    alt="Spotify" 
+	                    fluid 
+	                    className="d-inline-block"/>
+	                </a>
+	                <a href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/">
+	                    <Image 
+	                    src={require('./images/itunes.svg')} 
+	                    alt="Itunes" 
+	                    fluid 
+	                    className="d-inline-block"/>
+	                </a>
 				</Col>
 			</Row>
 

@@ -75,25 +75,6 @@ function Contact() {
 				            <Button type="submit" variant="light" value="send">Submit</Button>
 				        </p>
 			        </Form>
-
-					 <h6>WHERE TO FIND US</h6>
-					 <p>
-			        	<a href="https://www.facebook.com/martha264/">
-				        	<Image 
-				        	src={require('./images/002-facebook.svg')} 
-				        	alt="Facebook" 
-				        	fluid 
-				        	className="d-inline-block"/>
-			        	</a>
-			        	<a href="https://www.instagram.com/hachiko264/">
-				        	<Image 
-				        	src={require('./images/003-instagram.svg')} 
-				        	alt="Instagram" 
-				        	fluid 
-				        	className="d-inline-block"/>
-			        	</a>
-			        	youtube, spotify
-			        </p>
 				</Col>
 			</Row>
 

@@ -53,7 +53,41 @@ function Layout() {
                 </Navbar.Collapse>
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                      Follow us: <a href="/">Social Media icons</a>
+                      <a href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/">
+                            <Image 
+                            src={require('./images/spotify.svg')} 
+                            alt="Spotify" 
+                            fluid 
+                            className="d-inline-block"/>
+                        </a>
+                        <a href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/">
+                            <Image 
+                            src={require('./images/itunes.svg')} 
+                            alt="Itunes" 
+                            fluid 
+                            className="d-inline-block"/>
+                        </a>
+                        <a href="https://www.youtube.com/user/AoHMofficial">
+                            <Image 
+                            src={require('./images/youtube.svg')} 
+                            alt="Youtube" 
+                            fluid 
+                            className="d-inline-block"/>
+                        </a>
+                        <a href="https://www.facebook.com/AoHMOfficial/">
+                            <Image 
+                            src={require('./images/facebook.svg')} 
+                            alt="Facebook" 
+                            fluid 
+                            className="d-inline-block"/>
+                        </a>
+                        <a href="https://www.instagram.com/official_ashes_of_her_memory/">
+                            <Image 
+                            src={require('./images/instagram.svg')} 
+                            alt="instagram" 
+                            fluid 
+                            className="d-inline-block"/>
+                        </a>
                     </Navbar.Text>
                   </Navbar.Collapse>
             </Navbar>
@@ -70,21 +104,8 @@ function Layout() {
             </Container>
             <> 
                <footer className='footer mt-auto py-1 pb-4 '>
-                    <div className='container'>                        
-                        <a href="https://www.facebook.com/martha264/">
-                                <Image 
-                                src={require('./images/002-facebook.svg')} 
-                                alt="Facebook" 
-                                fluid 
-                                className="d-inline-block"/>
-                            </a>
-                            <a href="https://www.instagram.com/hachiko264/">
-                                <Image 
-                                src={require('./images/003-instagram.svg')} 
-                                alt="Instagram" 
-                                fluid 
-                                className="d-inline-block"/>
-                        </a>
+                    <div className='container'> 
+                    <p><b>Ashes of Her Memory © 2020</b></p>                      
                     </div>
                </footer>
             </>
