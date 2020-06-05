@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Carousel from 'react-bootstrap/Carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import './fonts/Segoe-UI.ttf';
 import './fonts/Segoe-UI-Bold.ttf';
 import './fonts/Segoe-UI-Bold-Italic.ttf';

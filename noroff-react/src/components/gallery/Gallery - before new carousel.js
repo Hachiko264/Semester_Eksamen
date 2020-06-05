@@ -3,13 +3,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Heading from "../layout/Heading";
-//import Carousel from 'react-bootstrap/Carousel';
+import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
-import { Carousel } from 'react-responsive-carousel';
-
-import img1 from "./images/slidetest.jpg";
 
 
 export function Gallery() {
@@ -21,22 +18,8 @@ export function Gallery() {
             Kommer bedre løsning på fotogalleri. potensielt https://reactstrap.github.io/components/carousel/</p>
            
 			<Row>
-				<Col md={12}>
+				<Col md={12} className="detail-image">
 
-					<Carousel>
-		                <div>
-		                    <img src={img1} alt="Slide" />
-		                    <h2>slide 1</h2>
-		                </div>
-		                <div>
-		                    <img src={img1} alt="Slide" />
-		                    <h2>slide 2</h2>
-		                </div>
-		                <div>
-		                    <img src={img1} alt="Slide" />
-		                    <h2>slide 3</h2>
-		                </div>
-		            </Carousel>
 
             	</Col>
 			</Row>

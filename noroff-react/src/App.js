@@ -4,6 +4,7 @@ import Paragraph from "./components/layout/Paragraph.js";
 import Layout from "./components/layout/Layout.js";
 import './App.css';
 import "./css/style.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 
 function App() {
