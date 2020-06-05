@@ -2,7 +2,9 @@ import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-
+import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 import Heading from "../layout/Heading";
 
 
@@ -10,10 +12,48 @@ export function Home() {
     return (
         <>
             <Heading title="Home" />
+
             <h2> H2 undertittel </h2>
             <p>Homepage - Slideshow/videobackground with logo, welcome/enter page. 
             <br/> landingsside med flash background maybe? og slideslow på gallery?
             <br/> mulig løsning for store bilder. evt fixed bakgrunn? https://github.com/tailwindcss/discuss/issues/41</p>
+
+            <Row>
+				<Col md={12} className="detail-image">
+            		<Carousel>
+
+		            	<Carousel.Item>
+			            	<img
+						      className="d-block w-100"
+						      src={require('./images/slidetest.jpg')}
+						      alt="Slide"
+						    />
+						     <Carousel.Caption>
+							    <h3>SLIDE LABEL</h3>
+							    <p>Label text under image</p>
+						    </Carousel.Caption>
+		            	</Carousel.Item>
+
+
+		            	<Carousel.Item>
+			            	<img
+						      className="d-block w-100"
+						      src={require('./images/slidetest.jpg')}
+						      alt="Slide"
+						    />
+		            	</Carousel.Item>
+
+		            	<Carousel.Item>
+			            	<img
+						      className="d-block w-100"
+						      src={require('./images/slidetest.jpg')}
+						      alt="Slide"
+						    />
+		            	</Carousel.Item>
+
+            		</Carousel>
+            	</Col>
+			</Row>
 
             <Row>
 				<Col md={2} className="detail-image">
