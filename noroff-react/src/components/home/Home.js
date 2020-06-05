@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import Heading from "../layout/Heading";
 
 
