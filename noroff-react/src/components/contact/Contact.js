@@ -72,7 +72,7 @@ function Contact() {
 				                <Form.Control name="message" placeholder="Write you message here" ref={register({required: true, min: 10, maxLength: 500})} />
 				                {errors.message && <ErrorMessage>{errors.message.Message}</ErrorMessage>}
 				            </Form.Group>
-				            <Button type="submit" variant="light">Submit</Button>
+				            <Button type="submit" variant="light" value="send">Submit</Button>
 				        </p>
 			        </Form>
 

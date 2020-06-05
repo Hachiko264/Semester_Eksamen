@@ -83,6 +83,24 @@ row { //funker ikke
 	margin-right: 15px;
 }
 
+.carousel .slide {
+	background: none;
+	margin-bottom: -30px;
+	height: 100%;
+	width: auto;
+}
+
+.carousel p {
+	padding-top: 20px;
+	color: hsl(0,0,50);
+}
+
+.carousel .control-dots {
+	margin: 0px auto;
+	padding-bottom: 100px;
+	background: none;
+}
+
 .navbar-header .navbar-brand {
   height: 100px;
 }
@@ -103,4 +121,29 @@ row { //funker ikke
   line-height:24px;
   color:#737373;
   text-align: right;
+}
+
+
+@media only screen and (max-width: 500px) {
+  /* mobile phones: */
+  [class*="col-"] {
+    width: 60%;
+  }
+
+  img {
+  	padding-top: 3em;
+  }
+
+h1 {
+	display: none;
+  }
+
+footer {
+    float: left;
+  }
+
+li {
+	width: 60%;
+}
+
 }

@@ -3,13 +3,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Heading from "../layout/Heading";
+import Container from 'react-bootstrap/Container'
 
 export function Disco() {
     return (
         <>
             <Heading class="mainheading" title="DISCOGRAPHY" />
             
-
+            
 			<Row>
 				<Col md={6} className="detail-image">
 	            	<p><Image src={require('./images/burden_disco_large.jpg')} alt="A common burden album cover" fluid /></p>
@@ -41,10 +42,10 @@ export function Disco() {
 			</Row>
 
 			<Row>
-				<Col md={3} className="detail-image">
+				<Col sx={12} md={3} className="detail-image">
 	            	<p><Image src={require('./images/looney_disco.jpg')} alt="Looneytale single cover" fluid /></p>
 				</Col>
-				<Col md={3} className="detail-text">
+				<Col sx={12} md={3} className="detail-text">
 				<h3>LOONEYTALE</h3>
 				<h5>ASHES OF HER MEMORY </h5>
 				<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
@@ -53,10 +54,10 @@ export function Disco() {
 
 				</Col>
 
-				<Col md={3} className="detail-image">
+				<Col sx={10} md={3} className="detail-image">
 	            	<p><Image src={require('./images/everyday_disco.jpg')} alt="Everyday pressure single cover" fluid /></p>
 				</Col>
-				<Col md={3} className="detail-text">
+				<Col sx={10} md={3} className="detail-text">
 				<h3>EVERYDAY PRESSURE</h3>
 				<h5>ASHES OF HER MEMORY </h5>
 				<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
