@@ -6,47 +6,49 @@ import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Heading from "../layout/Heading";
 
+import gal01 from "./images/gal01.jpg";
+import gal02 from "./images/gal02.jpg";
+import gal06 from "./images/gal06.jpg";
+import gal07 from "./images/gal07.jpg";
+
 
 export function Home() {
     return (
         <>
-            <Heading title="Home" />
-
-            <h2> H2 undertittel </h2>
-            <p>Homepage - Slideshow/videobackground with logo, welcome/enter page. 
-            <br/> landingsside med flash background maybe? og slideslow på gallery?
-            <br/> mulig løsning for store bilder. evt fixed bakgrunn? https://github.com/tailwindcss/discuss/issues/41</p>
-
-            <Row>
+			<Row>
 				<Col md={12} className="detail-image">
             		<Carousel>
 
 		            	<Carousel.Item>
 			            	<img
 						      className="d-block w-100"
-						      src={require('./images/slidetest.jpg')}
-						      alt="Slide"
+						      src={require('./images/gal01.jpg')}
+						      alt="Slide 1"
 						    />
-						     <Carousel.Caption>
-							    <h3>SLIDE LABEL</h3>
-							    <p>Label text under image</p>
-						    </Carousel.Caption>
 		            	</Carousel.Item>
 
 
 		            	<Carousel.Item>
 			            	<img
 						      className="d-block w-100"
-						      src={require('./images/slidetest.jpg')}
-						      alt="Slide"
+						      src={require('./images/gal02.jpg')}
+						      alt="Slide 2"
 						    />
 		            	</Carousel.Item>
 
 		            	<Carousel.Item>
 			            	<img
 						      className="d-block w-100"
-						      src={require('./images/slidetest.jpg')}
-						      alt="Slide"
+						      src={require('./images/gal06.jpg')}
+						      alt="Slide 3"
+						    />
+		            	</Carousel.Item>
+
+		            	<Carousel.Item>
+			            	<img
+						      className="d-block w-100"
+						      src={require('./images/gal07.jpg')}
+						      alt="Slide 4"
 						    />
 		            	</Carousel.Item>
 
@@ -54,48 +56,53 @@ export function Home() {
             	</Col>
 			</Row>
 
+			 <Row>
+				<Col md={12} className="detail-text">
+				<p><br />
+				<br /><br /></p>
+				</Col>		
+			</Row>
+
             <Row>
 				<Col md={2} className="detail-image">
-	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
+	            	<p><Image src={require('./images/burden_disco.jpg')} alt="Logo design" fluid /></p>
 				</Col>
 
 				<Col md={4} className="detail-text">
-					<p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh 
-	            	elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed 
-	            	augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent 
-	            	taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-	            	Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>	
+					<h3>FIRST FULL ALBUM!</h3>
+					<p>Listen to our first full album "A Common Burden" on Spotify and iTunes! 
+					Includes the two first singles from the album: "Everyday Pressure" and "Looneytale". </p>
+					<p>
+		            Listen on: <a class="text-white" href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/" target="_blank">Spotify </a>
+		            <b>|</b> <a class="text-white" href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/" target="_blank">iTunes </a>
+		            </p>
+		            <p>
+		            <a href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/">
+	                    <Image 
+	                    src={require('./images/spotify.svg')} 
+	                    alt="Spotify" 
+	                    fluid 
+	                    className="d-inline-block"/>
+	                </a>
+	                <a href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/">
+	                    <Image 
+	                    src={require('./images/itunes.svg')} 
+	                    alt="Itunes" 
+	                    fluid 
+	                    className="d-inline-block"/>
+	                </a>
+	                </p>	
 				</Col>	
 				<Col md={2} className="detail-image">
 	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
 				</Col>
 
 				<Col md={4} className="detail-text">
-					<p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh 
-	            	elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed 
-	            	augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent 
-	            	taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-	            	Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>	
-				</Col>			
-			</Row>
-
-
-
-
-			<Row>
-				<Col md={12} className="detail-image">
-	            	<p><Image src={require('./images/Prototype_Martha.png')} alt="Logo design" fluid /></p>
-				</Col>		
-			</Row>
-
-
-			<Row>
-				<Col md={4} className="detail-image">
-	            	<p><Image src={require('./images/ashes.jpg')} alt="Logo design" fluid /></p>
-				</Col>
-
-				<Col md={8} className="detail-image">
-					<p><Image src={require('./images/Style_Tile_Martha.jpg')} alt="Shoes website" fluid /></p>	
+					<h3>CONTACT FOR BOOKING!</h3>
+					<p>Want to book us for a festival or concert? 
+					Contact us here or on social media to tips us of 
+					possible gigs. Stay updated for future plan here and 
+					our social medias.</p>
 				</Col>			
 			</Row>
         </>

@@ -30,20 +30,26 @@ export function Disco() {
 						<b>9.</b> Looneytale <b>4:00</b><br />
 						<b>10.</b> Everybody <b>4:23</b><br />
 	            	</p>
-	            		<a href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/">
-                            <Image 
-                            src={require('./images/spotify.svg')} 
-                            alt="Spotify" 
-                            fluid 
-                            className="d-inline-block"/>
-                        </a>
-                        <a href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/">
-                            <Image 
-                            src={require('./images/itunes.svg')} 
-                            alt="Itunes" 
-                            fluid 
-                            className="d-inline-block"/>
-                        </a>
+	            		<p>
+			            Listen on: <a class="text-white" href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/" target="_blank">Spotify </a>
+			            <b>|</b> <a class="text-white" href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/" target="_blank">iTunes </a>
+			            </p>
+			            <p>
+			            <a href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/">
+		                    <Image 
+		                    src={require('./images/spotify.svg')} 
+		                    alt="Spotify" 
+		                    fluid 
+		                    className="d-inline-block"/>
+		                </a>
+		                <a href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/">
+		                    <Image 
+		                    src={require('./images/itunes.svg')} 
+		                    alt="Itunes" 
+		                    fluid 
+		                    className="d-inline-block"/>
+		                </a>
+	                </p>
 	            </Col>
 			</Row>
 
@@ -63,8 +69,11 @@ export function Disco() {
 					<h5>ASHES OF HER MEMORY </h5>
 					<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
 		            <p><b>1.</b> Looneytale feat. Poeh - Single Version <b>4:00</b></p>
-		            <p>((SPOTIFY + ITUNES))</p>
-		            
+					<p>
+		            Listen on: <a class="text-white" href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/" target="_blank">Spotify </a>
+		            <b>|</b> <a class="text-white" href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/" target="_blank">iTunes </a>
+		            </p>
+		            <p>
 		            <a href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/">
 	                    <Image 
 	                    src={require('./images/spotify.svg')} 
@@ -78,8 +87,8 @@ export function Disco() {
 	                    alt="Itunes" 
 	                    fluid 
 	                    className="d-inline-block"/>
-	                </a>		
-
+	                </a>
+	                </p>
 				</Col>
 
 				<Col sx={10} md={3} className="detail-image">
@@ -90,8 +99,11 @@ export function Disco() {
 					<h5>ASHES OF HER MEMORY </h5>
 					<h6>SINGLE (2017), PIGGTRÅD RECORDS</h6>
 		            <p><b>1.</b> Everyday Pressure - Single Version <b>3:40</b></p>
-		            <p>((SPOTIFY + ITUNES))</p>
-
+		            <p>
+		            Listen on: <a class="text-white" href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/" target="_blank">Spotify </a>
+		            <b>|</b> <a class="text-white" href="https://music.apple.com/us/artist/ashes-of-her-memory/1297217753/" target="_blank">iTunes </a>
+		            </p>
+		            <p>
 		            <a href="https://open.spotify.com/artist/2zynUZq7pD9AUK1eyTXmZY?si=xYhCpiUAQG2pdh1RLFkgsA/">
 	                    <Image 
 	                    src={require('./images/spotify.svg')} 
@@ -106,14 +118,8 @@ export function Disco() {
 	                    fluid 
 	                    className="d-inline-block"/>
 	                </a>
+	                </p>
 				</Col>
-			</Row>
-
-			 <Row>
-				<Col md={12} className="detail-text">
-				<p>Discography - Show released singles and albums with tracklist (connect to spotify, maybe api</p>
-				<p>Tekst om linker videre til bildegalleri osv osv? </p>
-				</Col>		
 			</Row>
         </>
     );

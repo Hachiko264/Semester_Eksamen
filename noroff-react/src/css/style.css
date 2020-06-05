@@ -1,6 +1,11 @@
 * {
-  font-family: "Segoe UI","Helvetica Neue",Roboto, "Noto Sans", sans-serif;
-  background-color: #141414; }
+  font-family: "Segoe UI","Helvetica Neue",Roboto, "Noto Sans", sans-serif; }
+
+body {
+  background-image: url("./images/backgroundblur.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left; }
 
 h1, p {
   color: white; }
@@ -72,6 +77,9 @@ row {
   padding-bottom: 100px;
   background: none; }
 
+.carousel-indicators {
+  display: none; }
+
 .navbar-header .navbar-brand {
   height: 100px; }
 
@@ -89,8 +97,11 @@ row {
   color: #737373;
   text-align: right; }
 
+/* mobile phones: */
 @media only screen and (max-width: 500px) {
-  /* mobile phones: */
+  * {
+    background-color: #141414; }
+
   [class*="col-"] {
     width: 60%; }
 

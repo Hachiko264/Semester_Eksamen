@@ -4,7 +4,14 @@
 
 * {
 	font-family: "Segoe UI","Helvetica Neue",Roboto, "Noto Sans", sans-serif;
-	background-color: hsl(0,0,8); 
+	//background-color: hsl(0,0,8); 
+}
+
+body {
+	background-image: url("./images/backgroundblur.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left;
 }
 
 
@@ -102,6 +109,10 @@ row { //funker ikke
 	background: none;
 }
 
+.carousel-indicators {
+	display: none;
+}
+
 .navbar-header .navbar-brand {
   height: 100px;
 }
@@ -124,12 +135,15 @@ row { //funker ikke
   text-align: right;
 }
 
-
+/* mobile phones: */
 @media only screen and (max-width: 500px) {
-  /* mobile phones: */
+
+* { background-color: hsl(0,0,8); 
+}
+  
   [class*="col-"] {
     width: 60%;
-  }
+}
 
   img {
   	padding-top: 3em;
